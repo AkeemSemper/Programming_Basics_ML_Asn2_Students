@@ -50,7 +50,7 @@ jobs:
 
           # Workbooks
           cp -r Programming_Basics_for_ML/course_material/assignments/asn2/* .
-          rm SAMP_SOL*
+          rm SAMP_SOL* -f
           #ls -la workbooks
 
           # Clear
@@ -62,4 +62,3 @@ jobs:
           git commit -m "Generated Update from Main Repository"
           git push --force
 
-          
